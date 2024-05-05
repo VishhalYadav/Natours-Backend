@@ -1,6 +1,30 @@
-# NatoursAPI
-#The API contains 9 tours and all the data about the tours that is required to build an tour website.
-# The API contains many endpoints to request the data. The main resources are tours, users and the reviews.
-# For each resource there are different endpoints for - GET, POST, PATCH and DELETE requests.
-# I have also build the Authenciation and Authorization section with the help of npm packages like- jwt.
-# If you have any query feel free to connect at- https://www.linkedin.com/in/vishal-yadav-902774239/
+# Natours - Tour Application Backend
+Natours is tour application backend build with the power of Nodejs,Expressjs and MongoDB.
+
+## Installation Guide
+
+### Requirements
+- [Nodejs](https://nodejs.org/en/download)
+- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+Both should be installed and make sure mongodb is running.
+### Installation
+
+```shell
+git clone https://github.com/VishhalYadav/Natours-Backend.git
+cd Natours-Backend
+```
+
+
+Now install the dependencies
+```shell
+yarn install
+```
+We are almost done, Now just start the development server.
+
+```shell
+yarn start
+```
+Note - You need to set DATABASE variable inside config.env to valid mongoDB string.
+
+Done! Now open localhost:3000 in your browser.
